@@ -1,0 +1,35 @@
+@media (max-width: 992px) {
+    .expert {
+        min-height: 450px;
+        &__tabs {
+            width:70%;
+            height: auto;
+            flex-direction: column;
+            margin-bottom: 25px;
+            &-item {
+                margin: 20px 0;
+                a {
+                    font-size: 20px;
+                    &:after {
+                        border: 0px solid #ececec;
+                        visibility: hidden;
+                    }
+                    &:hover {
+                        color: #fff;
+                    }
+                }  
+            }
+        }
+        &__slider {
+            display: none;
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .expert {
+        &__title {
+        font-size: 25px; 
+        }
+    }
+}

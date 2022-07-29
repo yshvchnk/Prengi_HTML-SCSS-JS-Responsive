@@ -1,0 +1,31 @@
+.advantages {
+    min-height: 1316px;
+    padding: 79px 0 62px 0;
+    &__title {
+        font-size: 30px;
+        line-height: 36px;
+        color: #393939;
+        font-weight: 900;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    &__grid {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        &-block {
+            position: relative;
+            p {
+                position: absolute;
+                z-index: 2;
+                top: 50%;
+                left: 50%;
+                transform: translateX(-50%) translateY(-50%);
+                font-size: 23px;
+                line-height: 26px;
+                color: #ffffff;
+                font-weight: 400;
+                text-align: center;
+            }
+        }
+    }
+}

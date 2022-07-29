@@ -1,0 +1,32 @@
+@media (max-width: 992px) {
+    .options {
+        &__grid {
+            min-height: 800px;
+            grid-template-columns: 100%;
+        }
+        &__block {
+            &-text {
+                top: 55%
+            }
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .options {
+        &__title {
+            font-size: 25px;
+            line-height: 25px;
+        }
+        &__block {
+            &-title {
+                font-size: 20px;
+                line-height: 20px;
+            }
+            &-text {
+                font-size: 15px;
+                line-height: 15px;
+            }
+        }
+    }
+}

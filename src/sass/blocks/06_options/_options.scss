@@ -1,0 +1,57 @@
+.options {
+    position: relative;
+    &__grid {
+        min-height: 580px;
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+    &__title {
+        position: absolute;
+        z-index: 2;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-top: 70px;
+        font-size: 30px;
+        line-height: 36px;
+        color: #ffffff;
+        font-weight: 900;
+        text-align: center;
+    }
+    &__background1 {
+        position: relative;
+        background: url(../img/5th_screen/1_cloud.png) center center / cover no-repeat;
+    }
+    &__background2 {
+        position: relative;
+        background: url(../img/5th_screen/2_server.png) center center /cover no-repeat;
+    }
+    &__block {
+        &-title {
+            position: absolute;
+            top: 47%;
+            right: 5%;
+            font-size: 30px;
+            line-height: 22px;
+            color: #ffffff;
+            font-weight: 900;
+            text-transform: uppercase;
+            &_right {
+                left: 5%;
+            }
+        }
+        &-text {
+            position: absolute;
+            top: 53%;
+            right: 5%;
+            font-size: 18px;
+            line-height: 26px;
+            color: #ffffff;
+            font-weight: 400;
+            text-align: right;
+            &_right {
+                left: 5%;
+                text-align: left;
+            }
+        }
+    } 
+}

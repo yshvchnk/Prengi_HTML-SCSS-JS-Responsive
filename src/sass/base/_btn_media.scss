@@ -1,0 +1,9 @@
+@media (max-width: 768px) {
+    .btn {
+        &:hover {
+            opacity: 1;
+            background-color: $main-color;
+        }  
+    }
+}
+    

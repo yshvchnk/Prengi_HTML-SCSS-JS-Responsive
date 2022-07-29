@@ -1,0 +1,12 @@
+@media (max-width: 1140px) {
+    .header {
+        &__section {
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        &__block {
+            margin-top: 15px;
+            margin-right: 20px;
+        }
+    }
+}

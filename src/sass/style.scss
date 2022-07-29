@@ -1,0 +1,36 @@
+@import 'libs/bootstrap-reboot.min';
+@import 'libs/slick';
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+@import 'base/variables';
+@import 'base/btn';
+
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+@import 'blocks/01_header/header';
+@import 'blocks/02_promo/promo';
+@import 'blocks/03_proposal/proposal';
+@import 'blocks/04_expert/expert';
+@import 'blocks/05_advantages/advantages';
+@import 'blocks/06_options/options';
+@import 'blocks/07_contacts/contacts';
+@import 'blocks/08_footer/footer';
+
+@import 'blocks/media';
+@import 'base/btn_media';
+@import 'blocks/01_header/header_media';
+@import 'blocks/02_promo/promo_media';
+@import 'blocks/03_proposal/proposal_media';
+@import 'blocks/04_expert/expert_media';
+@import 'blocks/05_advantages/advantages_media';
+@import 'blocks/06_options/options_media';
+@import 'blocks/07_contacts/contacts_media';
+@import 'blocks/08_footer/footer_media';

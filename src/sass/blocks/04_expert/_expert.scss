@@ -1,0 +1,76 @@
+.expert {
+    min-height: 889px;
+    background: url(../img/3rd_screen/bg3.png) center center / cover no-repeat;
+    padding: 79px 0 71px 0;
+    &__title {
+        font-size: 30px;
+        line-height: 36px;
+        color: #ffffff;
+        font-weight: 900;
+        text-align: center;
+    }
+    &__tabs {
+        width: 844px;
+        height: 65px;
+        margin: 25px auto 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border: 2px solid $main-color;
+        border-radius: 5px;
+        list-style: none;
+        &-item {
+            margin: 0 20px;
+            a {
+                position: relative;
+                font-size: 14px;
+                line-height: 26px;
+                color: #ffffff;
+                font-weight: 400;
+                cursor: pointer;
+                text-decoration: none;
+                transition: all .5s;
+                &:hover {
+                    color: $main-color;
+                }
+                &:after {
+                    content: '';
+                    border: 1px solid #ececec;
+                    position: absolute;
+                    height: 50px;
+                    top: -15px;
+                    right: -33px;
+                }
+            }
+            &:last-child {
+                a:after {
+                    visibility: hidden;
+                } 
+            }
+        }
+    }
+    &__slider {
+        margin-top: 35px;
+        text-align: center;
+        img {
+            margin: 0 auto;
+            width: 65%;
+        }
+        .slick-prev,
+        .slick-next {
+            width: 40px;
+            height: 40px;
+            border-top: 4px solid  $main-color;
+            border-right: 4px solid  $main-color;
+            transform: skew(-10deg 10 deg);
+            left: 4%;
+            bottom: 50%;
+        }
+        .slick-next {
+            left: 92%;
+        }
+        .slick-active {
+            background-color: transparent;
+        }
+    }
+}
